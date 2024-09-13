@@ -1,0 +1,252 @@
+# Chat Messages/Responses
+messages:
+  no_permission: "&cYou do not have permission to view other players' stats."
+  player_not_found: "&cPlayer not found: &e{player}"
+  player_only_command: "&cOnly players can use this command."
+  view_own_stats: "&aViewing your own stats."
+  view_other_stats: "&aViewing &e{player}'s &astats."
+
+# Configuration for the Stats GUI Plugin
+gui:
+  size: 54
+  title: "Player Stats"
+
+# Statistics configuration
+stats:
+  general:
+    PLAYER_KILLS:
+      enabled: true
+      material: "DIAMOND_SWORD"
+      display_name: "&6Player Kills"
+      lore:
+        - "&7Total number of players"
+        - "&7you have slain in combat."
+    DEATHS:
+      enabled: true
+      material: "REDSTONE"
+      display_name: "&cDeaths"
+      lore:
+        - "&7How many times you've died."
+    MOB_KILLS:
+      enabled: true
+      material: "IRON_SWORD"
+      display_name: "&6Mob Kills"
+      lore:
+        - "&7The number of hostile mobs"
+        - "&7you have defeated."
+    ANIMALS_BRED:
+      enabled: true
+      material: "WHEAT"
+      display_name: "&dAnimals Bred"
+      lore:
+        - "&7How many animals you"
+        - "&7have successfully bred."
+    FISH_CAUGHT:
+      enabled: true
+      material: "FISHING_ROD"
+      display_name: "&bFish Caught"
+      lore:
+        - "&7Total fish caught while"
+        - "&7fishing in the waters."
+    LEAVE_GAME:
+      enabled: true
+      material: "OAK_DOOR"
+      display_name: "&cGames Left"
+      lore:
+        - "&7How many times you've"
+        - "&7left the game."
+    JUMP:
+      enabled: true
+      material: "RABBIT_FOOT"
+      display_name: "&aJumps"
+      lore:
+        - "&7The total number of jumps"
+        - "&7you have performed."
+    DROP_COUNT:
+      enabled: true
+      material: "HOPPER"
+      display_name: "&7Items Dropped"
+      lore:
+        - "&7The number of items"
+        - "&7you've dropped on the ground."
+    DAMAGE_DEALT:
+      enabled: true
+      material: "ANVIL"
+      display_name: "&cDamage Dealt"
+      lore:
+        - "&7Total damage you have dealt"
+        - "&7to entities."
+    DAMAGE_TAKEN:
+      enabled: true
+      material: "SHIELD"
+      display_name: "&cDamage Taken"
+      lore:
+        - "&7Total damage you have taken."
+    SPRINT_ONE_CM:
+      enabled: true
+      material: "LEATHER_BOOTS"
+      display_name: "&aDistance Sprinted"
+      lore:
+        - "&7Total distance you've sprinted."
+    WALK_ONE_CM:
+      enabled: true
+      material: "CHAINMAIL_BOOTS"
+      display_name: "&7Distance Walked"
+      lore:
+        - "&7Total distance you've walked."
+    BOAT_ONE_CM:
+      enabled: true
+      material: "OAK_BOAT"
+      display_name: "&bDistance Boated"
+      lore:
+        - "&7Total distance traveled by boat."
+    MINECART_ONE_CM:
+      enabled: true
+      material: "MINECART"
+      display_name: "&7Distance Traveled by Minecart"
+      lore:
+        - "&7Total distance traveled by minecart."
+    SWIM_ONE_CM:
+      enabled: true
+      material: "WATER_BUCKET"
+      display_name: "&bDistance Swam"
+      lore:
+        - "&7Total distance swam."
+    FALL_ONE_CM:
+      enabled: true
+      material: "FEATHER"
+      display_name: "&7Distance Fallen"
+      lore:
+        - "&7Total distance fallen."
+
+  entity:
+    KILL_ENTITY_BLAZE:
+      enabled: true
+      material: "BLAZE_POWDER"
+      display_name: "&6Blazes Killed"
+      lore:
+        - "&7How many blazes you've"
+        - "&7defeated in the Nether."
+      entity: "BLAZE"
+    KILL_ENTITY_COW:
+      enabled: true
+      material: "BEEF"
+      display_name: "&aCows Killed"
+      lore:
+        - "&7Number of cows you've"
+        - "&7killed for their meat."
+      entity: "COW"
+    KILL_ENTITY_CREEPER:
+      enabled: true
+      material: "TNT"
+      display_name: "&2Creepers Killed"
+      lore:
+        - "&7Creepers defeated before"
+        - "&7they could explode."
+      entity: "CREEPER"
+    KILL_ENTITY_ENDERMAN:
+      enabled: true
+      material: "ENDER_PEARL"
+      display_name: "&5Endermen Killed"
+      lore:
+        - "&7Endermen you've slain."
+      entity: "ENDERMAN"
+    KILL_ENTITY_PIG:
+      enabled: true
+      material: "PORKCHOP"
+      display_name: "&dPigs Killed"
+      lore:
+        - "&7How many pigs have been"
+        - "&7slaughtered for pork?"
+      entity: "PIG"
+    KILL_ENTITY_SKELETON:
+      enabled: true
+      material: "BONE"
+      display_name: "&fSkeletons Killed"
+      lore:
+        - "&7Skeletons you've bested"
+        - "&7with sword or bow."
+      entity: "SKELETON"
+    KILL_ENTITY_ZOMBIE:
+      enabled: true
+      material: "ROTTEN_FLESH"
+      display_name: "&2Zombies Killed"
+      lore:
+        - "&7Zombies you have slain."
+      entity: "ZOMBIE"
+
+  block:
+    MINE_BLOCK_DIAMOND_ORE:
+      enabled: true
+      material: "DIAMOND_ORE"
+      display_name: "&bDiamond Ores Mined"
+      lore:
+        - "&7How many diamond ores you've"
+        - "&7successfully mined."
+      block: "DIAMOND_ORE"
+    MINE_BLOCK_COAL_ORE:
+      enabled: true
+      material: "COAL_ORE"
+      display_name: "&8Coal Ores Mined"
+      lore:
+        - "&7The number of coal ores"
+        - "&7you've dug out."
+      block: "COAL_ORE"
+    MINE_BLOCK_IRON_ORE:
+      enabled: true
+      material: "IRON_ORE"
+      display_name: "&fIron Ores Mined"
+      lore:
+        - "&7How many iron ores you've"
+        - "&7mined from underground."
+      block: "IRON_ORE"
+    MINE_BLOCK_STONE:
+      enabled: true
+      material: "STONE"
+      display_name: "&7Stone Mined"
+      lore:
+        - "&7Total amount of stone"
+        - "&7you've mined."
+      block: "STONE"
+
+  item:
+    USE_ITEM_DIAMOND_SWORD:
+      enabled: true
+      material: "DIAMOND_SWORD"
+      display_name: "&bDiamond Sword Uses"
+      lore:
+        - "&7Number of times you've"
+        - "&7swung your diamond sword."
+      item: "DIAMOND_SWORD"
+    BREAK_ITEM_IRON_PICKAXE:
+      enabled: true
+      material: "IRON_PICKAXE"
+      display_name: "&7Iron Pickaxes Broken"
+      lore:
+        - "&7How many iron pickaxes"
+        - "&7you've broken during mining."
+      item: "IRON_PICKAXE"
+    USE_ITEM_BOW:
+      enabled: true
+      material: "BOW"
+      display_name: "&6Bow Uses"
+      lore:
+        - "&7How many times you've shot"
+        - "&7arrows with your bow."
+      item: "BOW"
+    USE_ITEM_SHEARS:
+      enabled: true
+      material: "SHEARS"
+      display_name: "&aShears Used"
+      lore:
+        - "&7Number of times you've"
+        - "&7used shears on sheep."
+      item: "SHEARS"
+    BREAK_ITEM_SHEARS:
+      enabled: true
+      material: "SHEARS"
+      display_name: "&aShears Broken"
+      lore:
+        - "&7How many shears you've broken"
+        - "&7while gathering wool."
+      item: "SHEARS"

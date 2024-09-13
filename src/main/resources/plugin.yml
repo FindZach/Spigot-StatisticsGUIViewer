@@ -1,0 +1,9 @@
+name: InGameStatistics
+version: '1.0-SNAPSHOT'
+main: org.findzach.gamestats.InGameStatistics
+api-version: '1.20'
+authors: [ Kozs ]
+description: Displays user statistics in GUI Format
+commands:
+  stats:
+    description: Opens the stats GUI
